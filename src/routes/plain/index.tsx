@@ -1,5 +1,6 @@
 import {component$} from "@builder.io/qwik";
-import {DocumentHead, Form, routeAction$} from "@builder.io/qwik-city";
+import type {DocumentHead} from "@builder.io/qwik-city";
+import {Form, routeAction$} from "@builder.io/qwik-city";
 import * as fs from "fs";
 
 export default component$(() => {
